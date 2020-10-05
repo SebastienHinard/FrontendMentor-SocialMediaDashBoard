@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="container">
+      <div class="title-container">
+        <h1 class="title">Social Media Dashboard</h1>
+        <div class="followers-count">Total Followers: 23,004</div>
+      </div>
+      <div class="switch">
+        <label for="theme-switcher">Dark Mode</label>
+        <input type="checkbox" id="theme-switcher">
+      </div>
+    </div>
+  </header>
+
+  <!-- OVERVIEW TOP -->
+  <section class="section-top">
+    <div class="container">
+      <div class="card-container">
+
+        <div class="card card--big card--facebook">
+          <div class="card__social">
+            <img src="assets/images/icon-facebook.svg" alt="" class="card__icon">
+            <span>@nathanf</span>
+          </div>
+          <div class="card__stats">
+            <strong class="card__big-number">1987</strong class="card__big-number">
+            <span>Followers</span>
+          </div>
+          <p class="card__new-stats card__new-stats--plus"><span>12</span> Today</p>
+        </div>
+  
+        <div class="card card--big card--twitter">
+          <div class="card__social">
+            <img src="assets/images/icon-twitter.svg" alt="" class="card__icon">
+            <span>@nathanf</span>
+          </div>
+          <div class="card__stats">
+            <strong class="card__big-number">1044</strong class="card__big-number">
+            <span>Followers</span>
+          </div>
+          <p class="card__new-stats card__new-stats--plus"><span>99</span> Today</p>
+        </div>
+  
+        <div class="card card--big card--instagram">
+          <div class="card__social">
+            <img src="assets/images/icon-instagram.svg" alt="" class="card__icon">
+            <span>@realnathanf</span>
+          </div>
+          <div class="card__stats">
+            <strong class="card__big-number">11k</strong class="card__big-number">
+            <span>Followers</span>
+          </div>
+          <p class="card__new-stats card__new-stats--plus"><span>1099</span> Today</p>
+        </div>
+  
+        <div class="card card--big card--youtube">
+          <div class="card__social">
+            <img src="assets/images/icon-youtube.svg" alt="" class="card__icon">
+            <span>Nathan F.</span>
+          </div>
+          <div class="card__stats">
+            <strong class="card__big-number">8239</strong class="card__big-number">
+            <span>Subscribers</span>
+          </div>
+          <p class="card__new-stats card__new-stats--minus"><span>144</span> Today</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- OVERVIEW DOWN -->
+  <section class="section-down">
+    <div class="container">
+      <h2 class="title">Overview - Today</h2>
+      <div class="card-container">
+
+        <div class="card card--small">
+          <div class="card__top">
+            <span>Page Views</span>
+            <img src="assets/images/icon-facebook.svg" alt="" class="card__icon">
+          </div>
+          <div class="card__bottom">
+            <strong class="card__big-number">87</strong class="card__big-number">
+            <p class="card__new-stats card__new-stats--plus"><span>3</span>%</p>
+          </div>
+        </div>
+
+        <div class="card card--small">
+          <div class="card__top">
+            <span>Likes</span>
+            <img src="assets/images/icon-facebook.svg" alt="" class="card__icon">
+          </div>
+          <div class="card__bottom">
+            <strong class="card__big-number">52</strong class="card__big-number">
+            <p class="card__new-stats card__new-stats--minus"><span>2</span>%</p>
+          </div>
+        </div>
+
+
+        <div class="card card--small">
+          <div class="card__top">
+            <span>Likes</span>
+            <img src="assets/images/icon-instagram.svg" alt="" class="card__icon">
+          </div>
+          <div class="card__bottom">
+            <strong class="card__big-number">5462</strong class="card__big-number">
+            <p class="card__new-stats card__new-stats--plus"><span>2257</span>%</p>
+          </div>
+        </div>
+
+
+        <div class="card card--small">
+          <div class="card__top">
+            <span>Profile Views</span>
+            <img src="assets/images/icon-instagram.svg" alt="" class="card__icon">
+          </div>
+          <div class="card__bottom">
+            <strong class="card__big-number">52k</strong class="card__big-number">
+            <p class="card__new-stats card__new-stats--plus"><span>1375</span>%</p>
+          </div>
+        </div>
+
+        <div class="card card--small">
+          <div class="card__top">
+            <span>Retweets</span>
+            <img src="assets/images/icon-twitter.svg" alt="" class="card__icon">
+          </div>
+          <div class="card__bottom">
+            <strong class="card__big-number">117</strong class="card__big-number">
+            <p class="card__new-stats card__new-stats--plus"><span>303</span>%</p>
+          </div>
+        </div>
+
+        <div class="card card--small">
+          <div class="card__top">
+            <span>Likes</span>
+            <img src="assets/images/icon-twitter.svg" alt="" class="card__icon">
+          </div>
+          <div class="card__bottom">
+            <strong class="card__big-number">507</strong class="card__big-number">
+            <p class="card__new-stats card__new-stats--plus"><span>553</span>%</p>
+          </div>
+        </div>
+
+        <div class="card card--small">
+          <div class="card__top">
+            <span>Likes</span>
+            <img src="assets/images/icon-youtube.svg" alt="" class="card__icon">
+          </div>
+          <div class="card__bottom">
+            <strong class="card__big-number">107</strong class="card__big-number">
+            <p class="card__new-stats card__new-stats--minus"><span>19</span>%</p>
+          </div>
+        </div>
+
+        <div class="card card--small">
+          <div class="card__top">
+            <span>Total Views</span>
+            <img src="assets/images/icon-youtube.svg" alt="" class="card__icon">
+          </div>
+          <div class="card__bottom">
+            <strong class="card__big-number">1407</strong class="card__big-number">
+            <p class="card__new-stats card__new-stats--minus"><span>12</span>%</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Sébastien Hinard</a>.
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
