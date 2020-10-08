@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    transition: 0.3s ease-in-out;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
@@ -31,6 +30,19 @@
     --color-light: hsl(228, 12%, 44%);
 }
 
+/** ATTRIBUTION */
+.attribution {
+    margin: 1em 0;
+    font-size: 1em;
+    text-align: center;
+    color: var(--color-main);
+}
+
+.attribution a {
+    color: hsl(208, 92%, 53%);
+    text-decoration: none;
+}
+
 body {
     font-size: 14px;
     font-family: 'Inter', sans-serif;
@@ -45,7 +57,6 @@ body {
 }
 
 /** HEADER */
-
 header {
     background: var(--bg-header);
     padding: 20px 0;
@@ -70,7 +81,6 @@ header .container {
 }
 
 /** SECTION **/
-
 .section-top {
     margin-top: -120px;
 }
@@ -113,6 +123,7 @@ header .container {
     border-radius: 50%;
     display: block;
     background: var(--bg);
+    transition: 0.3s ease-in-out;
 }
 
 .switch input:checked:after {
@@ -124,7 +135,6 @@ header .container {
 }
 
 /** CARDS */
-
 .card-container {
     display: flex;
     flex-flow: row wrap;
@@ -144,6 +154,7 @@ header .container {
     border-radius: 10px;
     position: relative;
     cursor: pointer;
+    transition: 0.3s ease-in-out;
 }
 
 .card:hover {
